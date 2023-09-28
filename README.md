@@ -2,16 +2,9 @@
 The Cannibals and Missionaries problem is a classic AI puzzle: three missionaries and three cannibals must cross a river using a boat which can carry at most two people.  
 N-Queen problem is a classical problem in the field of AI, where we try to find a chessboard configuration where in a N × N board there will be N queens, not attacking each other.
 
-##Exercise 1: Missionaries and cannibals problem
-The cost of a solution is the total number of boat moves.
-Contents:
-1. A few words about the problem
-2. Program architecture
-3. Artificial Intelligence Methods It Uses
-4. Examples of its use
-5. Experimental results
+==Exercise 1: Missionaries and cannibals problem==
 
-#1) A few words about the problem
+1) A few words about the problem
 The problem of cannibals and missionaries:
 three missionaries and three cannibals must cross a river
 using a boat capable of carrying not more than two persons, under
@@ -20,7 +13,7 @@ can be more than cannibals (if they were, cannibals would
 they ate the missionaries). The boat cannot cross the river alone
 of without passengers.
 
-#The generalized problem of cannibals and missionaries:
+The generalized problem of cannibals and missionaries:
 - The problem we solved accepts as variables the values of
 of cannibals and missionaries (N), of the boat's capacity (M) and of
 maximum allowed number of crossings of the boat (K) by
